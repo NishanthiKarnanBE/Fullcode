@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Test Suite" verbose="2" >
+   <!--<listeners>
+       <listener class-name="com.testNg.Listener"></listener>
+   </listeners>-->
+    <groups>
+        <run>
+
+            <exclude name="five"></exclude>
+        </run>
+    </groups>
+
+    <parameter name="test" value="Nishanthi"></parameter>
+
+
+    <test name="Test Case1">
+        <classes>
+            <class name="com.testNg.Parameterization"></class>
+        </classes>
+    </test>
+
+
+</suite>
+
+
